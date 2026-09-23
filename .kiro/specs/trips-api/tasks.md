@@ -23,8 +23,8 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Add `$casts`: `start_date → date:Y-m-d`, `end_date → date:Y-m-d`, `cost → decimal:2`
     - _Requirements: 1.8, 4.1, 4.2_
 
-- [ ] 3. Implement the StoreTripRequest form request
-  - [ ] 3.1 Create `app/Http/Requests/StoreTripRequest.php`
+- [x] 3. Implement the StoreTripRequest form request
+  - [x] 3.1 Create `app/Http/Requests/StoreTripRequest.php`
     - Extend `Illuminate\Foundation\Http\FormRequest`; `authorize()` returns `true`
     - Add validation rules for all five fields per the design: `traveler_name` (required, string, min:1, max:255), `destination` (required, string, min:1, max:255), `start_date` (required, date_format:Y-m-d, after_or_equal:today), `end_date` (required, date_format:Y-m-d, after:start_date), `cost` (required, numeric, min:0, max:99999.99, decimal:0,2)
     - Add custom `after` closure on `end_date` to reject durations > 364 days

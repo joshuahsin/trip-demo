@@ -45,6 +45,25 @@
         "chatSessionId": "sess_f6776dd7-80dc-4b62-81aa-f445f9960219",
         "timestamp": 1790206298894
       }
+    ],
+    "3.1 Create `app/Http/Requests/StoreTripRequest.php`": [
+      {
+        "executionId": "bbc1fde6-5724-4869-bd27-723399fc9ef3",
+        "chatSessionId": "sess_c4ef1302-cbd3-4fd1-a342-bddf14821de9",
+        "timestamp": 1790206443571
+      },
+      {
+        "executionId": "bbc1fde6-5724-4869-bd27-723399fc9ef3",
+        "chatSessionId": "sess_c4ef1302-cbd3-4fd1-a342-bddf14821de9",
+        "timestamp": 1790206520073
+      }
+    ],
+    "3. Implement the StoreTripRequest form request": [
+      {
+        "executionId": "bbc1fde6-5724-4869-bd27-723399fc9ef3",
+        "chatSessionId": "sess_c4ef1302-cbd3-4fd1-a342-bddf14821de9",
+        "timestamp": 1790206520127
+      }
     ]
   }
 }
