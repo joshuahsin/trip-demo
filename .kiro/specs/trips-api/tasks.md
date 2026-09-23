@@ -30,8 +30,8 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Add custom `after` closure on `end_date` to reject durations > 364 days
     - _Requirements: 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8_
 
-- [ ] 4. Implement TripController
-  - [ ] 4.1 Create `app/Http/Controllers/TripController.php`
+- [x] 4. Implement TripController
+  - [x] 4.1 Create `app/Http/Controllers/TripController.php`
     - Add `index()` method: fetch `Trip::orderBy('id')->get()`, return 200 JSON; catch `QueryException` → 500 JSON with generic message
     - Add `store(StoreTripRequest $request)` method: call `Trip::create($request->validated())`, return 201 JSON; catch `QueryException` → 503 JSON; catch `\Throwable` → 500 JSON
     - Log errors server-side using `Log::error()` before returning error responses
