@@ -16,8 +16,8 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Add columns: `id` (bigIncrements), `traveler_name` (string 255), `destination` (string 255), `start_date` (date), `end_date` (date), `cost` (decimal 12,2 unsigned), `timestamps()`
     - _Requirements: 4.1_
 
-- [ ] 2. Implement the Trip Eloquent model
-  - [ ] 2.1 Create `app/Models/Trip.php`
+- [x] 2. Implement the Trip Eloquent model
+  - [x] 2.1 Create `app/Models/Trip.php`
     - Extend `Illuminate\Database\Eloquent\Model`
     - Set `$fillable` to `['traveler_name', 'destination', 'start_date', 'end_date', 'cost']`
     - Add `$casts`: `start_date → date:Y-m-d`, `end_date → date:Y-m-d`, `cost → decimal:2`
