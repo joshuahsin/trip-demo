@@ -6,12 +6,12 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
 
 ## Tasks
 
-- [ ] 1. Add giorgiosironi/eris dev dependency and create the trips migration
+- [x] 1. Add giorgiosironi/eris dev dependency and create the trips migration
   - [x] 1.1 Require `giorgiosironi/eris` as a dev dependency
     - Run `composer require --dev giorgiosironi/eris` (or manually add `"giorgiosironi/eris": "^0.11"` to `require-dev` in `composer.json` and run `composer update`)
     - Verify the package appears in `vendor/`
     - _Requirements: Testing Strategy (design.md)_
-  - [ ] 1.2 Create the `create_trips_table` migration
+  - [x] 1.2 Create the `create_trips_table` migration
     - Create `database/migrations/{timestamp}_create_trips_table.php`
     - Add columns: `id` (bigIncrements), `traveler_name` (string 255), `destination` (string 255), `start_date` (date), `end_date` (date), `cost` (decimal 12,2 unsigned), `timestamps()`
     - _Requirements: 4.1_
