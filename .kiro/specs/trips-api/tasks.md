@@ -50,8 +50,8 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
   - Run `php artisan route:list` and confirm `/api/trips` appears for both GET and POST.
   - Ensure all tests pass so far; ask the user if questions arise.
 
-- [ ] 7. Write example-based feature tests
-  - [ ] 7.1 Create `tests/Feature/TripTest.php` with the `RefreshDatabase` trait (SQLite in-memory)
+- [x] 7. Write example-based feature tests
+  - [x] 7.1 Create `tests/Feature/TripTest.php` with the `RefreshDatabase` trait (SQLite in-memory)
     - Add test: empty table returns `[]` with HTTP 200 — _Requirements: 2.2, 3.3_
     - Add test: valid POST creates trip and returns 201 with all submitted fields — _Requirements: 1.1, 3.2_
     - Add test: missing required field returns 422 with that field in `errors` — _Requirements: 1.2, 1.3, 3.4_

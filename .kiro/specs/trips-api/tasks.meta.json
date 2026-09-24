@@ -114,6 +114,25 @@
         "chatSessionId": "sess_a79a8378-b2c0-4e9f-ba39-6dcc232ca86b",
         "timestamp": 1790207792304
       }
+    ],
+    "7.1 Create `tests/Feature/TripTest.php` with the `RefreshDatabase` trait (SQLite in-memory)": [
+      {
+        "executionId": "48ef0d5b-b129-4bba-9f42-97fb05117387",
+        "chatSessionId": "sess_e6a049ba-dfde-40b0-974f-b402057591e9",
+        "timestamp": 1790217834671
+      },
+      {
+        "executionId": "48ef0d5b-b129-4bba-9f42-97fb05117387",
+        "chatSessionId": "sess_e6a049ba-dfde-40b0-974f-b402057591e9",
+        "timestamp": 1790219044955
+      }
+    ],
+    "7. Write example-based feature tests": [
+      {
+        "executionId": "48ef0d5b-b129-4bba-9f42-97fb05117387",
+        "chatSessionId": "sess_e6a049ba-dfde-40b0-974f-b402057591e9",
+        "timestamp": 1790219044982
+      }
     ]
   }
 }

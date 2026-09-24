@@ -49,7 +49,7 @@ class StoreTripRequest extends FormRequest
 
                 // Duration is the number of days between start and end (exclusive of start)
                 // Jan 1 → Dec 31 = 364 days (accepted); Jan 1 → Jan 1 next year = 365 days (rejected)
-                if ($end->diffInDays($start) > 364) {
+                if ($start->diffInDays($end) > 364) {
                     $validator->errors()->add('end_date', 'The end date must be within 364 days of the start date.');
                 }
             }
