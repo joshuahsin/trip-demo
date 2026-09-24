@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('destination', 255);
             $table->date('start_date');
             $table->date('end_date');
-            $table->unsignedDecimal('cost', 12, 2);
+            $table->decimal('cost', 12, 2)->unsigned();
             $table->timestamps();
         });
     }

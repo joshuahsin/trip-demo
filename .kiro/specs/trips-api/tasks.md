@@ -45,7 +45,7 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Add `api: __DIR__.'/../routes/api.php'` to the `withRouting()` call
     - _Requirements: 1.1, 2.1_
 
-- [ ] 6. Checkpoint — run migrations and smoke-test routing
+- [x] 6. Checkpoint — run migrations and smoke-test routing
   - Run `php artisan migrate` and verify the `trips` table is created with correct columns.
   - Run `php artisan route:list` and confirm `/api/trips` appears for both GET and POST.
   - Ensure all tests pass so far; ask the user if questions arise.
