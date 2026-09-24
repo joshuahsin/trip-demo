@@ -65,8 +65,8 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Add test: migration creates correct columns via `Schema::hasColumn` assertions — _Requirements: 4.1_
     - _Requirements: 1.1–1.9, 2.2, 2.4, 3.1, 3.2, 3.4, 4.1, 4.3_
 
-- [ ] 8. Write property-based feature tests
-  - [ ] 8.1 Create `tests/Feature/TripPropertyTest.php` using giorgiosironi/eris generators with 100 iterations each
+- [x] 8. Write property-based feature tests
+  - [x] 8.1 Create `tests/Feature/TripPropertyTest.php` using giorgiosironi/eris generators with 100 iterations each
     - Configure `RefreshDatabase` (SQLite in-memory) and set up eris `ForAll` scaffolding
     - _Requirements: Testing Strategy (design.md)_
   - [ ]* 8.2 Write property test for Property 1 — Trip creation round-trip

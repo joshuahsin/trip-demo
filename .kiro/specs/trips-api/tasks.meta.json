@@ -133,6 +133,25 @@
         "chatSessionId": "sess_e6a049ba-dfde-40b0-974f-b402057591e9",
         "timestamp": 1790219044982
       }
+    ],
+    "8.1 Create `tests/Feature/TripPropertyTest.php` using giorgiosironi/eris generators with 100 iterations each": [
+      {
+        "executionId": "c1a4f941-c267-493f-afc4-b1c13184efb2",
+        "chatSessionId": "sess_b42c8b6b-570b-4152-8137-641b19cb3065",
+        "timestamp": 1790219430280
+      },
+      {
+        "executionId": "c1a4f941-c267-493f-afc4-b1c13184efb2",
+        "chatSessionId": "sess_b42c8b6b-570b-4152-8137-641b19cb3065",
+        "timestamp": 1790219754400
+      }
+    ],
+    "8. Write property-based feature tests": [
+      {
+        "executionId": "c1a4f941-c267-493f-afc4-b1c13184efb2",
+        "chatSessionId": "sess_b42c8b6b-570b-4152-8137-641b19cb3065",
+        "timestamp": 1790219754462
+      }
     ]
   }
 }
