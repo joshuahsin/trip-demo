@@ -37,11 +37,11 @@ Implement a REST API for managing travel trips in a Laravel 13 application. The 
     - Log errors server-side using `Log::error()` before returning error responses
     - _Requirements: 1.1, 1.9, 2.1, 2.2, 2.4, 3.1, 3.2, 3.3, 4.2, 4.3_
 
-- [ ] 5. Register API routes
-  - [ ] 5.1 Create `routes/api.php` with GET and POST `/trips` routes pointing to `TripController`
+- [x] 5. Register API routes
+  - [x] 5.1 Create `routes/api.php` with GET and POST `/trips` routes pointing to `TripController`
     - Define `Route::get('/trips', [TripController::class, 'index'])` and `Route::post('/trips', [TripController::class, 'store'])`
     - _Requirements: 1.1, 2.1_
-  - [ ] 5.2 Update `bootstrap/app.php` to register `routes/api.php` with the `api` middleware group
+  - [x] 5.2 Update `bootstrap/app.php` to register `routes/api.php` with the `api` middleware group
     - Add `api: __DIR__.'/../routes/api.php'` to the `withRouting()` call
     - _Requirements: 1.1, 2.1_
 
